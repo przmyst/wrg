@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" android:hardwareAccelerated="true" package="com.wrg.miner" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:label="@string/activity_name" android:launchMode="singleTask" android:name="com.wrg.miner.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.App.SplashScreen" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:label="@string/launcher_name">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n200" android:label="WRG: Razor #200" android:name="com.wrg.miner.n200" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n199" android:label="WRG: Razor #199" android:name="com.wrg.miner.n199" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n198" android:label="WRG: Razor #198" android:name="com.wrg.miner.n198" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n197" android:label="WRG: Razor #197" android:name="com.wrg.miner.n197" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n196" android:label="WRG: Razor #196" android:name="com.wrg.miner.n196" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n195" android:label="WRG: Razor #195" android:name="com.wrg.miner.n195" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n194" android:label="WRG: Razor #194" android:name="com.wrg.miner.n194" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n193" android:label="WRG: Razor #193" android:name="com.wrg.miner.n193" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n192" android:label="WRG: Razor #192" android:name="com.wrg.miner.n192" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n191" android:label="WRG: Razor #191" android:name="com.wrg.miner.n191" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n190" android:label="WRG: Razor #190" android:name="com.wrg.miner.n190" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n189" android:label="WRG: Razor #189" android:name="com.wrg.miner.n189" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n188" android:label="WRG: Razor #188" android:name="com.wrg.miner.n188" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n187" android:label="WRG: Razor #187" android:name="com.wrg.miner.n187" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n186" android:label="WRG: Razor #186" android:name="com.wrg.miner.n186" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n185" android:label="WRG: Razor #185" android:name="com.wrg.miner.n185" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n184" android:label="WRG: Razor #184" android:name="com.wrg.miner.n184" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n183" android:label="WRG: Razor #183" android:name="com.wrg.miner.n183" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n182" android:label="WRG: Razor #182" android:name="com.wrg.miner.n182" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n181" android:label="WRG: Razor #181" android:name="com.wrg.miner.n181" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n180" android:label="WRG: Razor #180" android:name="com.wrg.miner.n180" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n179" android:label="WRG: Razor #179" android:name="com.wrg.miner.n179" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n178" android:label="WRG: Razor #178" android:name="com.wrg.miner.n178" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n177" android:label="WRG: Razor #177" android:name="com.wrg.miner.n177" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n176" android:label="WRG: Razor #176" android:name="com.wrg.miner.n176" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n175" android:label="WRG: Razor #175" android:name="com.wrg.miner.n175" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n174" android:label="WRG: Razor #174" android:name="com.wrg.miner.n174" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n173" android:label="WRG: Razor #173" android:name="com.wrg.miner.n173" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n172" android:label="WRG: Razor #172" android:name="com.wrg.miner.n172" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n171" android:label="WRG: Razor #171" android:name="com.wrg.miner.n171" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n170" android:label="WRG: Razor #170" android:name="com.wrg.miner.n170" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n169" android:label="WRG: Razor #169" android:name="com.wrg.miner.n169" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n168" android:label="WRG: Razor #168" android:name="com.wrg.miner.n168" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n167" android:label="WRG: Razor #167" android:name="com.wrg.miner.n167" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n166" android:label="WRG: Razor #166" android:name="com.wrg.miner.n166" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n165" android:label="WRG: Razor #165" android:name="com.wrg.miner.n165" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n164" android:label="WRG: Razor #164" android:name="com.wrg.miner.n164" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n163" android:label="WRG: Razor #163" android:name="com.wrg.miner.n163" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n162" android:label="WRG: Razor #162" android:name="com.wrg.miner.n162" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n161" android:label="WRG: Razor #161" android:name="com.wrg.miner.n161" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n160" android:label="WRG: Razor #160" android:name="com.wrg.miner.n160" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n159" android:label="WRG: Razor #159" android:name="com.wrg.miner.n159" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n158" android:label="WRG: Razor #158" android:name="com.wrg.miner.n158" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n157" android:label="WRG: Razor #157" android:name="com.wrg.miner.n157" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n156" android:label="WRG: Razor #156" android:name="com.wrg.miner.n156" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n155" android:label="WRG: Razor #155" android:name="com.wrg.miner.n155" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n154" android:label="WRG: Razor #154" android:name="com.wrg.miner.n154" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n153" android:label="WRG: Razor #153" android:name="com.wrg.miner.n153" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n152" android:label="WRG: Razor #152" android:name="com.wrg.miner.n152" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n151" android:label="WRG: Razor #151" android:name="com.wrg.miner.n151" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n150" android:label="WRG: Razor #150" android:name="com.wrg.miner.n150" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n149" android:label="WRG: Razor #149" android:name="com.wrg.miner.n149" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n148" android:label="WRG: Razor #148" android:name="com.wrg.miner.n148" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n147" android:label="WRG: Razor #147" android:name="com.wrg.miner.n147" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n146" android:label="WRG: Razor #146" android:name="com.wrg.miner.n146" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n145" android:label="WRG: Razor #145" android:name="com.wrg.miner.n145" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n144" android:label="WRG: Razor #144" android:name="com.wrg.miner.n144" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n143" android:label="WRG: Razor #143" android:name="com.wrg.miner.n143" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n142" android:label="WRG: Razor #142" android:name="com.wrg.miner.n142" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n141" android:label="WRG: Razor #141" android:name="com.wrg.miner.n141" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n140" android:label="WRG: Razor #140" android:name="com.wrg.miner.n140" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n139" android:label="WRG: Razor #139" android:name="com.wrg.miner.n139" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n138" android:label="WRG: Razor #138" android:name="com.wrg.miner.n138" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n137" android:label="WRG: Razor #137" android:name="com.wrg.miner.n137" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n136" android:label="WRG: Razor #136" android:name="com.wrg.miner.n136" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n135" android:label="WRG: Razor #135" android:name="com.wrg.miner.n135" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n134" android:label="WRG: Razor #134" android:name="com.wrg.miner.n134" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n133" android:label="WRG: Razor #133" android:name="com.wrg.miner.n133" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n132" android:label="WRG: Razor #132" android:name="com.wrg.miner.n132" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n131" android:label="WRG: Razor #131" android:name="com.wrg.miner.n131" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n130" android:label="WRG: Razor #130" android:name="com.wrg.miner.n130" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n129" android:label="WRG: Razor #129" android:name="com.wrg.miner.n129" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n128" android:label="WRG: Razor #128" android:name="com.wrg.miner.n128" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n127" android:label="WRG: Razor #127" android:name="com.wrg.miner.n127" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n126" android:label="WRG: Razor #126" android:name="com.wrg.miner.n126" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n125" android:label="WRG: Razor #125" android:name="com.wrg.miner.n125" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n124" android:label="WRG: Razor #124" android:name="com.wrg.miner.n124" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n123" android:label="WRG: Razor #123" android:name="com.wrg.miner.n123" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n122" android:label="WRG: Razor #122" android:name="com.wrg.miner.n122" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n121" android:label="WRG: Razor #121" android:name="com.wrg.miner.n121" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n120" android:label="WRG: Razor #120" android:name="com.wrg.miner.n120" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n119" android:label="WRG: Razor #119" android:name="com.wrg.miner.n119" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n118" android:label="WRG: Razor #118" android:name="com.wrg.miner.n118" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n117" android:label="WRG: Razor #117" android:name="com.wrg.miner.n117" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n116" android:label="WRG: Razor #116" android:name="com.wrg.miner.n116" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n115" android:label="WRG: Razor #115" android:name="com.wrg.miner.n115" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n114" android:label="WRG: Razor #114" android:name="com.wrg.miner.n114" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n113" android:label="WRG: Razor #113" android:name="com.wrg.miner.n113" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n112" android:label="WRG: Razor #112" android:name="com.wrg.miner.n112" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n111" android:label="WRG: Razor #111" android:name="com.wrg.miner.n111" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n110" android:label="WRG: Razor #110" android:name="com.wrg.miner.n110" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n109" android:label="WRG: Razor #109" android:name="com.wrg.miner.n109" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n108" android:label="WRG: Razor #108" android:name="com.wrg.miner.n108" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n107" android:label="WRG: Razor #107" android:name="com.wrg.miner.n107" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n106" android:label="WRG: Razor #106" android:name="com.wrg.miner.n106" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n105" android:label="WRG: Razor #105" android:name="com.wrg.miner.n105" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n104" android:label="WRG: Razor #104" android:name="com.wrg.miner.n104" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n103" android:label="WRG: Razor #103" android:name="com.wrg.miner.n103" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n102" android:label="WRG: Razor #102" android:name="com.wrg.miner.n102" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n101" android:label="WRG: Razor #101" android:name="com.wrg.miner.n101" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n100" android:label="WRG: Razor #100" android:name="com.wrg.miner.n100" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n99" android:label="WRG: Razor #99" android:name="com.wrg.miner.n99" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n98" android:label="WRG: Razor #98" android:name="com.wrg.miner.n98" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n97" android:label="WRG: Razor #97" android:name="com.wrg.miner.n97" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n96" android:label="WRG: Razor #96" android:name="com.wrg.miner.n96" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n95" android:label="WRG: Razor #95" android:name="com.wrg.miner.n95" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n94" android:label="WRG: Razor #94" android:name="com.wrg.miner.n94" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n93" android:label="WRG: Razor #93" android:name="com.wrg.miner.n93" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n92" android:label="WRG: Razor #92" android:name="com.wrg.miner.n92" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n91" android:label="WRG: Razor #91" android:name="com.wrg.miner.n91" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n90" android:label="WRG: Razor #90" android:name="com.wrg.miner.n90" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n89" android:label="WRG: Razor #89" android:name="com.wrg.miner.n89" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n88" android:label="WRG: Razor #88" android:name="com.wrg.miner.n88" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n87" android:label="WRG: Razor #87" android:name="com.wrg.miner.n87" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n86" android:label="WRG: Razor #86" android:name="com.wrg.miner.n86" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n85" android:label="WRG: Razor #85" android:name="com.wrg.miner.n85" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n84" android:label="WRG: Razor #84" android:name="com.wrg.miner.n84" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n83" android:label="WRG: Razor #83" android:name="com.wrg.miner.n83" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n82" android:label="WRG: Razor #82" android:name="com.wrg.miner.n82" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n81" android:label="WRG: Razor #81" android:name="com.wrg.miner.n81" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n80" android:label="WRG: Razor #80" android:name="com.wrg.miner.n80" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n79" android:label="WRG: Razor #79" android:name="com.wrg.miner.n79" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n78" android:label="WRG: Razor #78" android:name="com.wrg.miner.n78" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n77" android:label="WRG: Razor #77" android:name="com.wrg.miner.n77" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n76" android:label="WRG: Razor #76" android:name="com.wrg.miner.n76" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n75" android:label="WRG: Razor #75" android:name="com.wrg.miner.n75" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n74" android:label="WRG: Razor #74" android:name="com.wrg.miner.n74" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n73" android:label="WRG: Razor #73" android:name="com.wrg.miner.n73" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n72" android:label="WRG: Razor #72" android:name="com.wrg.miner.n72" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n71" android:label="WRG: Razor #71" android:name="com.wrg.miner.n71" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n70" android:label="WRG: Razor #70" android:name="com.wrg.miner.n70" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n69" android:label="WRG: Razor #69" android:name="com.wrg.miner.n69" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n68" android:label="WRG: Razor #68" android:name="com.wrg.miner.n68" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n67" android:label="WRG: Razor #67" android:name="com.wrg.miner.n67" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n66" android:label="WRG: Razor #66" android:name="com.wrg.miner.n66" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n65" android:label="WRG: Razor #65" android:name="com.wrg.miner.n65" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n64" android:label="WRG: Razor #64" android:name="com.wrg.miner.n64" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n63" android:label="WRG: Razor #63" android:name="com.wrg.miner.n63" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n62" android:label="WRG: Razor #62" android:name="com.wrg.miner.n62" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n61" android:label="WRG: Razor #61" android:name="com.wrg.miner.n61" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n60" android:label="WRG: Razor #60" android:name="com.wrg.miner.n60" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n59" android:label="WRG: Razor #59" android:name="com.wrg.miner.n59" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n58" android:label="WRG: Razor #58" android:name="com.wrg.miner.n58" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n57" android:label="WRG: Razor #57" android:name="com.wrg.miner.n57" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n56" android:label="WRG: Razor #56" android:name="com.wrg.miner.n56" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n55" android:label="WRG: Razor #55" android:name="com.wrg.miner.n55" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n54" android:label="WRG: Razor #54" android:name="com.wrg.miner.n54" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n53" android:label="WRG: Razor #53" android:name="com.wrg.miner.n53" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n52" android:label="WRG: Razor #52" android:name="com.wrg.miner.n52" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n51" android:label="WRG: Razor #51" android:name="com.wrg.miner.n51" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n50" android:label="WRG: Razor #50" android:name="com.wrg.miner.n50" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n49" android:label="WRG: Razor #49" android:name="com.wrg.miner.n49" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n48" android:label="WRG: Razor #48" android:name="com.wrg.miner.n48" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n47" android:label="WRG: Razor #47" android:name="com.wrg.miner.n47" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n46" android:label="WRG: Razor #46" android:name="com.wrg.miner.n46" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n45" android:label="WRG: Razor #45" android:name="com.wrg.miner.n45" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n44" android:label="WRG: Razor #44" android:name="com.wrg.miner.n44" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n43" android:label="WRG: Razor #43" android:name="com.wrg.miner.n43" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n42" android:label="WRG: Razor #42" android:name="com.wrg.miner.n42" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@drawable/n41" android:label="@string/activity_name" android:name="com.wrg.miner.n41" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n40" android:label="WRG: Razor #40" android:name="com.wrg.miner.n40" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n39" android:label="WRG: Razor #39" android:name="com.wrg.miner.n39" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n38" android:label="WRG: Razor #38" android:name="com.wrg.miner.n38" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n37" android:label="WRG: Razor #37" android:name="com.wrg.miner.n37" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n36" android:label="WRG: Razor #36" android:name="com.wrg.miner.n36" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n35" android:label="WRG: Razor #35" android:name="com.wrg.miner.n35" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n34" android:label="WRG: Razor #34" android:name="com.wrg.miner.n34" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n33" android:label="WRG: Razor #33" android:name="com.wrg.miner.n33" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n32" android:label="WRG: Razor #32" android:name="com.wrg.miner.n32" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n31" android:label="WRG: Razor #31" android:name="com.wrg.miner.n31" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n30" android:label="WRG: Razor #30" android:name="com.wrg.miner.n30" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n29" android:label="WRG: Razor #29" android:name="com.wrg.miner.n29" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n28" android:label="WRG: Razor #28" android:name="com.wrg.miner.n28" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n27" android:label="WRG: Razor #27" android:name="com.wrg.miner.n27" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n26" android:label="WRG: Razor #26" android:name="com.wrg.miner.n26" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n25" android:label="WRG: Razor #25" android:name="com.wrg.miner.n25" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n24" android:label="WRG: Razor #24" android:name="com.wrg.miner.n24" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n23" android:label="WRG: Razor #23" android:name="com.wrg.miner.n23" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n22" android:label="WRG: Razor #22" android:name="com.wrg.miner.n22" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n21" android:label="WRG: Razor #21" android:name="com.wrg.miner.n21" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n20" android:label="WRG: Razor #20" android:name="com.wrg.miner.n20" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n19" android:label="WRG: Razor #19" android:name="com.wrg.miner.n19" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n18" android:label="WRG: Razor #18" android:name="com.wrg.miner.n18" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n17" android:label="WRG: Razor #17" android:name="com.wrg.miner.n17" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n16" android:label="WRG: Razor #16" android:name="com.wrg.miner.n16" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n15" android:label="WRG: Razor #15" android:name="com.wrg.miner.n15" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n14" android:label="WRG: Razor #14" android:name="com.wrg.miner.n14" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n13" android:label="WRG: Razor #13" android:name="com.wrg.miner.n13" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n12" android:label="WRG: Razor #12" android:name="com.wrg.miner.n12" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n11" android:label="WRG: Razor #11" android:name="com.wrg.miner.n11" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n10" android:label="WRG: Razor #10" android:name="com.wrg.miner.n10" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n9" android:label="WRG: Razor #9" android:name="com.wrg.miner.n9" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n8" android:label="WRG: Razor #8" android:name="com.wrg.miner.n8" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n7" android:label="WRG: Razor #7" android:name="com.wrg.miner.n7" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n6" android:label="WRG: Razor #6" android:name="com.wrg.miner.n6" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n5" android:label="WRG: Razor #5" android:name="com.wrg.miner.n5" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n4" android:label="WRG: Razor #4" android:name="com.wrg.miner.n4" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n3" android:label="WRG: Razor #3" android:name="com.wrg.miner.n3" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n2" android:label="WRG: Razor #2" android:name="com.wrg.miner.n2" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@drawable/n1" android:label="WRG: Razor #1" android:name="com.wrg.miner.n1" android:targetActivity="com.wrg.miner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <provider android:authorities="com.wrg.miner.sharing.provider" android:exported="false" android:grantUriPermissions="true" android:name="nl.xservices.plugins.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sharing_paths"/>
+        </provider>
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/app_id"/>
+        <receiver android:enabled="true" android:exported="true" android:name="nl.xservices.plugins.ShareChooserPendingIntent">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.wrg.miner.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>
